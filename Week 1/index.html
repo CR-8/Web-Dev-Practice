@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKTU Zonals 2K24</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav">
+    <img src="Assests/aktu_logo.png" alt="AKTU Logo">
+    <h4><a href="#page1">Home</a></h4>
+    <h4><a href="#live-scores">Live Scores</a></h4>
+    <h4><a href="#schedule">Events</a></h4>
+    <h4><a href="#page4">Register</a></h4>
+  </div>
+
+  <video autoplay loop muted src="Assests/mixkit-runner-summons-motivation-at-start-of-race-9024-hd-ready.mp4"></video>
+
+  <div id="main">
+    <div id="page1">
+      <h1>ZONALS . 2K24</h1>
+      <h2>Welcome all sportsmen to AKTU Sports Zonals!</h2>
+      <p>AKTU Zonals are a collection of athletics and sports events like Javelin Throw, Shot Put, Basketball, Football, etc.</p>
+    </div>
+
+    <div class="page2">
+      <div id="live-scores">
+        <h2>Live Scores</h2>
+        <p>Follow the action live!</p>
+        <div class="score-card">
+          <p>Basketball: Team A 34 - 30 Team B</p>
+        </div>
+        <div class="score-card">
+          <p>Football: Team X 2 - 1 Team Y</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page3">
+      <div id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+          <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>Basketball</td>
+            <td>March 20</td>
+            <td>10:00 AM</td>
+            <td>Basketball Court</td>
+          </tr>
+          <tr>
+            <td>Football</td>
+            <td>March 21</td>
+            <td>12:30 PM</td>
+            <td>College Field</td>
+          </tr>
+          <tr>
+            <td>100 Meters Dash</td>
+            <td>March 22</td>
+            <td>3:30 PM</td>
+            <td>College Field</td>
+          </tr>
+          <tr>
+            <td>Badminton</td>
+            <td>March 23</td>
+            <td>11:00 AM</td>
+            <td>Badminton Court</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="events">
+        <h2>Event Categories</h2>
+        <div class="event-card">
+          <h3>Basketball</h3>
+          <p>Competitive intercollegiate basketball games.</p>
+        </div>
+        <div class="event-card">
+          <h3>Football</h3>
+          <p>Showcase your skills in an exciting football tournament.</p>
+        </div>
+        <div class="event-card">
+          <h3>Badminton</h3>
+          <p>For every swing, there is a smash at our badminton tournament.</p>
+        </div>
+        <div class="event-card">
+          <h3>Chess</h3>
+          <p>Engage in a duel of intellect at our chess tournament.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="page4">
+      <div class="title">
+        <h1><u><b>LOGIN & REGISTRATION</b></u></h1>
+        <div class="container">
+          <div class="login-container">
+            <img src="Assests/aktu_logo.png" height="100" alt="SRMCEM Logo">
+            <h2>Welcome to AKTU Sports Zonals</h2>
+            <p>Login to participate in the Zonal Sports Event</p>
+            <form action="/submit-login" method="POST">
+              <div class="form-group">
+                <label for="studentId">Roll Number</label>
+                <input type="text" id="studentId" name="studentId" placeholder="Enter your Roll Number" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+              </div>
+              <button type="submit" class="btn">Login</button>
+            </form>
+            <p class="new-user">New user? <a href="/register">Sign up here</a></p>
+            <p class="note">Only for students interested in participating in zonal sports events.</p>
+          </div>
+
+          <div class="about-section">
+            <h2>About AKTU Zonals 2K24</h2>
+            <p>The AKTU Zonals 2K24 is an exciting event for sports enthusiasts from all colleges affiliated with AKTU.<br> Compete in various sports such as Basketball, Football, Javelin Throw, and many more.<br> Join us to showcase your talent and represent your institution!<br>Stay tuned for live scores, event updates, and highlights. Make sure to register and be a part of this thrilling sports event.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
