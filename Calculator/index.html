@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cherry-blossom">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="calculator">
+        <div class="mode-toggle">
+            <button class="theme-btn">🌙</button>
+            <div class="calculator-name">Calculator</div>
+        </div>
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        <div class="buttons-grid">
+            <div class="main-buttons">
+                <button class="special glow" data-action="clear">AC</button>
+                <button class="special glow" data-action="delete">DEL</button>
+                <button class="special glow" data-action="percent">%</button>
+                <button class="operator glow" data-action="divide">÷</button>
+                
+                <button class="number glow">7</button>
+                <button class="number glow">8</button>
+                <button class="number glow">9</button>
+                <button class="operator glow" data-action="multiply">×</button>
+                
+                <button class="number glow">4</button>
+                <button class="number glow">5</button>
+                <button class="number glow">6</button>
+                <button class="operator glow" data-action="subtract">-</button>
+                
+                <button class="number glow">1</button>
+                <button class="number glow">2</button>
+                <button class="number glow">3</button>
+                <button class="operator glow" data-action="add">+</button>
+                
+                <button class="number zero glow">0</button>
+                <button class="number glow">.</button>
+                <button class="equals glow" data-action="calculate">=</button>
+            </div>
+            <div class="scientific-buttons">
+                <button class="function glow" data-action="sin">sin</button>
+                <button class="function glow" data-action="cos">cos</button>
+                <button class="function glow" data-action="tan">tan</button>
+                
+                <button class="function glow" data-action="sinh">sinh</button>
+                <button class="function glow" data-action="cosh">cosh</button>
+                <button class="function glow" data-action="tanh">tanh</button>
+                
+                <button class="function glow" data-action="sqrt">√</button>
+                <button class="function glow" data-action="cbrt">∛</button>
+                <button class="function glow" data-action="power">x²</button>
+                
+                <button class="function glow" data-action="log">log</button>
+                <button class="function glow" data-action="ln">ln</button>
+                <button class="function glow" data-action="exp">exp</button>
+                
+                <button class="function glow" data-action="pi">π</button>
+                <button class="function glow" data-action="e">e</button>
+                <button class="function glow" data-action="abs">|x|</button>
+                
+                <button class="function glow" data-action="factorial">n!</button>
+                <button class="function glow" data-action="random">rand</button>
+                <button class="function glow" data-action="round">round</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
