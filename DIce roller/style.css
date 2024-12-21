@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#h{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 6px;
+}
+
+#Question{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Inputfield{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+#rollBtn{
+    border: none;
+    color: black;
+    background-color: hsl(270, 64%, 80%);
+    margin: 6px;
+    font-size: 2rem;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+
+#rollBtn:hover{
+    background-color:  hsl(270, 80%, 65%);
+    cursor: pointer;
+}
+
+#dicenumber{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.diceimage{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 6px;
+    display: inline-block;
+}
